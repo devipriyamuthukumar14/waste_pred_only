@@ -6,7 +6,7 @@ from PIL import Image
 
 # Load trained model
 model = tf.keras.models.load_model(
-    "final_model_fixed.keras",
+    "final_model_under_25mb_float16.keras",
     compile=False
 )
 
